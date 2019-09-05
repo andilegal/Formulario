@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Formulario avançado</title>
+	<meta charset=utf-8>
+	<meta name=description content="">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+<h2>Estilizando Formularios</h2>
+<form>
+	<fieldset>
+		<legend>Detalhes de contato</legend>
+		<div>
+			<label for="nome"> Nome:</label>
+			<input type="text" name="nome" id="nome"><br>
+			<label for="email">Email</label>
+			<input type="text" name="email" id="email"><br>
+			<label for="url">URL:</label>
+			<input type="text" name="url" id="url"><br>
+
+		</div>
+	</fieldset>
+
+<fieldset>
+	<legend>Comentarios</legend>
+	<div>
+		<label for="Comentario">Comentario</label>
+		<textarea name="comentario" id="comentario"></textarea>
+	</div>
+</fieldset>
+
+
+<fieldset>
+	<legend>Lembrar de mim</legend>
+	<div>
+		<label>
+		<input class="radio" type="radio" name="Lembrar" id="sim" placeholder="">Sim</label>
+	</div>
+
+	<div>
+		<label>
+		<input class="radio" type="radio" name="Lembrar" id="radio" placeholder="">Não</label>
+	</div>
+</fieldset>
+</form>
+</body>
+</html>
